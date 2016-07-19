@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: e501d11b9047d2b4698a9c7dc769c89f
+timeCreated: 1467861413
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: circle-hexagon_0
+    21300002: circle-hexagon_1
+    21300004: circle-hexagon_2
+    21300006: circle-hexagon_3
+    21300008: circle-hexagon_4
+    21300010: circle-hexagon_5
+    21300012: circle-hexagon_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: circle-hexagon_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 127
+        width: 667
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.52171, y: 38.521713}
+        - {x: 107.52171, y: 73.52171}
+        - {x: 88.52171, y: 93.52171}
+        - {x: 79.52171, y: 101.52171}
+        - {x: 66.52171, y: 109.52171}
+        - {x: 55.521713, y: 114.52171}
+        - {x: 40.521713, y: 123.52171}
+        - {x: -41.478287, y: 123.52171}
+        - {x: -83.47829, y: 108.52171}
+        - {x: -122.47829, y: 53.521713}
+        - {x: -123.47829, y: 49.521713}
+        - {x: -123.47829, y: -43.478287}
+        - {x: -122.47829, y: -53.478287}
+        - {x: -96.47829, y: -87.47829}
+        - {x: -68.47829, y: -111.47829}
+        - {x: -41.478287, y: -123.47829}
+        - {x: 50.521713, y: -123.47829}
+        - {x: 79.52171, y: -103.47829}
+        - {x: 112.52171, y: -68.47829}
+        - {x: 123.52171, y: -43.478287}
+    - name: circle-hexagon_1
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 157
+        width: 597
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.03473, y: 38.62921}
+        - {x: 108.03473, y: 52.62921}
+        - {x: 82.03473, y: 91.62921}
+        - {x: 43.03473, y: 112.62921}
+        - {x: -29.965271, y: 112.62921}
+        - {x: -61.96527, y: 106.62921}
+        - {x: -97.96527, y: 73.62921}
+        - {x: -110.96527, y: 49.62921}
+        - {x: -110.96527, y: -49.37079}
+        - {x: -93.96527, y: -70.37079}
+        - {x: -72.96527, y: -91.37079}
+        - {x: -41.96527, y: -112.37079}
+        - {x: 32.03473, y: -112.37079}
+        - {x: 47.03473, y: -107.37079}
+        - {x: 94.03473, y: -77.37079}
+        - {x: 111.03473, y: -41.37079}
+    - name: circle-hexagon_2
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 178
+        width: 551
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.36426, y: 35.40445}
+        - {x: 102.36426, y: 47.40445}
+        - {x: 94.36426, y: 75.40445}
+        - {x: 40.364258, y: 106.40445}
+        - {x: -36.635742, y: 106.40445}
+        - {x: -94.63574, y: 69.40445}
+        - {x: -101.63574, y: 34.40445}
+        - {x: -101.63574, y: -18.59555}
+        - {x: -95.63574, y: -54.59555}
+        - {x: -76.63574, y: -80.59555}
+        - {x: -24.635742, y: -104.59555}
+        - {x: 30.364258, y: -104.59555}
+        - {x: 59.364258, y: -92.59555}
+        - {x: 94.36426, y: -60.59555}
+        - {x: 103.36426, y: -43.59555}
+    - name: circle-hexagon_3
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 194
+        width: 548
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5293, y: 91.328445}
+        - {x: 39.529297, y: 100.328445}
+        - {x: -50.470703, y: 100.328445}
+        - {x: -101.4707, y: 46.328445}
+        - {x: -101.4707, y: -23.671555}
+        - {x: -90.4707, y: -70.671555}
+        - {x: -62.470703, y: -89.671555}
+        - {x: -31.470703, y: -98.671555}
+        - {x: 38.529297, y: -98.671555}
+        - {x: 57.529297, y: -91.671555}
+        - {x: 101.5293, y: -36.671555}
+        - {x: 101.5293, y: 31.328445}
+    - name: circle-hexagon_4
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 189
+        width: 562
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98.36206, y: 58.977196}
+        - {x: 60.36206, y: 98.977196}
+        - {x: 42.36206, y: 102.977196}
+        - {x: -10.637939, y: 102.977196}
+        - {x: -52.63794, y: 95.977196}
+        - {x: -77.63794, y: 77.977196}
+        - {x: -103.63794, y: 16.977196}
+        - {x: -103.63794, y: -31.022804}
+        - {x: -58.63794, y: -93.022804}
+        - {x: -46.63794, y: -101.022804}
+        - {x: 40.36206, y: -101.022804}
+        - {x: 84.36206, y: -84.022804}
+        - {x: 105.36206, y: -32.022804}
+        - {x: 105.36206, y: 31.977196}
+    - name: circle-hexagon_5
+      rect:
+        serializedVersion: 2
+        x: 4062
+        y: 162
+        width: 580
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108.954346, y: 51.480453}
+        - {x: 52.954346, y: 102.48045}
+        - {x: 35.954346, y: 112.48045}
+        - {x: -11.045654, y: 112.48045}
+        - {x: -75.045654, y: 89.48045}
+        - {x: -96.045654, y: 70.48045}
+        - {x: -107.045654, y: 15.4804535}
+        - {x: -107.045654, y: -49.519547}
+        - {x: -45.045654, y: -110.51955}
+        - {x: 9.954346, y: -110.51955}
+        - {x: 23.954346, y: -107.51955}
+        - {x: 77.954346, y: -87.51955}
+        - {x: 100.954346, y: -63.519547}
+        - {x: 108.954346, y: -18.519547}
+    - name: circle-hexagon_6
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 130
+        width: 615
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.47388, y: -57.36754}
+        - {x: 115.47388, y: 63.63246}
+        - {x: 99.47388, y: 82.63246}
+        - {x: 31.473877, y: 122.63246}
+        - {x: -22.526123, y: 122.63246}
+        - {x: -26.526123, y: 119.63246}
+        - {x: -95.52612, y: 80.63246}
+        - {x: -111.52612, y: 62.63246}
+        - {x: -113.52612, y: 49.63246}
+        - {x: -113.52612, y: -49.36754}
+        - {x: -108.52612, y: -66.36754}
+        - {x: -95.52612, y: -80.36754}
+        - {x: -23.526123, y: -122.36754}
+        - {x: 21.473877, y: -122.36754}
+        - {x: 40.473877, y: -114.36754}
+        - {x: 104.47388, y: -75.36754}
+        - {x: 110.47388, y: -66.36754}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

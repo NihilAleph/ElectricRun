@@ -2,13 +2,13 @@
 using System.Collections;
 
 public class SafeHeaven : MonoBehaviour {
-
-	private bool mActive;
+    
+    public float sqrRange = 4.0f;
+    public GlowingLight glowingLight;
 
 	// Use this for initialization
 	void Start () {
-	
-		mActive = false;
+
 	}
 	
 	// Update is called once per frame
@@ -16,18 +16,30 @@ public class SafeHeaven : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter2D(Collider2D coll) {
-		if (coll.gameObject.CompareTag ("Player")) {
-			coll.gameObject.GetComponent<Player> ().invisible = true;
-			mActive = true;
-		}
+    // Check if it's in border of a heaven
+    void OnTriggerStay2D(Collider2D coll)
+    {
+        // If exiting safe heaven border
+        if (coll.gameObject.CompareTag("Player"))
+        {
+            // check if it's mostly outside the heaven
+            if ((coll.gameObject.transform.position - transform.position).sqrMagnitude > sqrRange)
+            {
+                // then it's not safe
+                //Debug.Log("Not Safe");
+                coll.gameObject.GetComponent<Player>().SetSafe(false);
+                glowingLight.SetGlowing(false);
 
-	}
 
-	void OnTriggerExit2D(Collider2D coll) {
-		if (coll.gameObject.CompareTag ("Player")) {
-			coll.gameObject.GetComponent<Player> ().invisible = false;
-			mActive = false;
-		}
-	}
+            }
+            else
+            {
+                // or else it's safe
+                //Debug.Log("Safe");
+                coll.gameObject.GetComponent<Player>().SetSafe(true);
+                glowingLight.SetGlowing(true);
+
+            }
+        }
+    }
 }

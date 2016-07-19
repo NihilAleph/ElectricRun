@@ -37,7 +37,7 @@ public class Player : MonoBehaviour {
 	public float maxTime;
 	private float mCoolDown;
 
-	public bool invisible;
+	public bool safe;
 
 	// Use this for initialization
 	void Start () {
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour {
 		mAnimator.SetInteger("State", 4);
 		mTimer = maxTime;
 		mCoolDown = maxTime;
-		invisible = false;
+		safe = false;
 
 	}
 	
@@ -138,9 +138,38 @@ public class Player : MonoBehaviour {
 		// Get light ahead of the body
 		Vector2 scaledVelocity = mRigidbody.velocity / maxSpeed;
 		selfLight.transform.position = gameObject.transform.position + new Vector3 (scaledVelocity.x, scaledVelocity.y, -1.0f) ;
+        if (mState == PlayerState.TRIANGLE)
+        {
+            selfLight.transform.localPosition += new Vector3(0.0f, -.5f, 0.0f);
+            selfLight.transform.position += new Vector3(scaledVelocity.x, scaledVelocity.y, 0.0f) / 2;
+        }
 
 		
 	}
+
+    // Setting if player is safe or not
+    public void SetSafe (bool set)
+    {
+        if (set)
+        {
+            // If it is becoming safe, turn off the light
+            if (!this.safe)
+            {
+                selfLight.GetComponent<Light>().intensity = 0.35f;
+                this.safe = true;
+
+            }
+        }
+        else
+        {
+            // If it is not safe anymore, turn on the light
+            if (this.safe)
+            {
+                selfLight.GetComponent<Light>().intensity = 2.0f;
+                this.safe = false;
+            }
+        }
+    }
 
 
 	void OnCollisionEnter2D(Collision2D col) {
@@ -155,7 +184,9 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	void Die() {
+
+
+    void Die() {
 
 		Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
 		Instantiate (deathAudio, gameObject.transform.position, gameObject.transform.rotation);

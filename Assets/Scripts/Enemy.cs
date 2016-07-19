@@ -66,7 +66,7 @@ public class Enemy : MonoBehaviour {
 			}
 			// Check if user still exists
 			if (player != null && (player.transform.position - transform.position).sqrMagnitude < 625.0f 
-				&& !player.GetComponent<Player>().invisible) {
+				&& !player.GetComponent<Player>().safe) {
 				// Force by eletrical charge with player
 				// If same state, gets attracted, else repels (which is stronger)
 				if ((player.GetComponent<Player> ()).GetState () != target) {

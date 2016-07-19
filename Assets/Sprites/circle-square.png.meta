@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: b37f9efa52642534bb04b22e24b743b8
+timeCreated: 1467861430
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: circle-square_0
+    21300002: circle-square_1
+    21300004: circle-square_2
+    21300006: circle-square_3
+    21300008: circle-square_4
+    21300010: circle-square_5
+    21300012: circle-square_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: circle-square_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 666
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.336044, y: 36.604233}
+        - {x: 106.336044, y: 79.60423}
+        - {x: 79.336044, y: 101.60423}
+        - {x: 52.336044, y: 117.60423}
+        - {x: 30.336044, y: 122.60423}
+        - {x: -32.663956, y: 122.60423}
+        - {x: -72.663956, y: 107.60423}
+        - {x: -99.663956, y: 83.60423}
+        - {x: -121.663956, y: 40.604233}
+        - {x: -121.663956, y: -34.395767}
+        - {x: -119.663956, y: -48.395767}
+        - {x: -93.663956, y: -90.39577}
+        - {x: -68.663956, y: -110.39577}
+        - {x: -34.663956, y: -122.39577}
+        - {x: 39.336044, y: -122.39577}
+        - {x: 76.336044, y: -109.39577}
+        - {x: 119.336044, y: -59.395767}
+        - {x: 123.336044, y: -36.395767}
+    - name: circle-square_1
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 159
+        width: 603
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.48862, y: 89.67915}
+        - {x: 57.488617, y: 102.67915}
+        - {x: 31.488617, y: 110.67915}
+        - {x: -46.511383, y: 110.67915}
+        - {x: -71.51138, y: 100.67915}
+        - {x: -109.51138, y: 52.679153}
+        - {x: -110.51138, y: 42.679153}
+        - {x: -110.51138, y: -49.320847}
+        - {x: -102.51138, y: -68.32085}
+        - {x: -53.511383, y: -107.32085}
+        - {x: -40.511383, y: -110.32085}
+        - {x: 48.488617, y: -110.32085}
+        - {x: 65.48862, y: -108.32085}
+        - {x: 90.48862, y: -82.32085}
+        - {x: 111.48862, y: -43.320847}
+        - {x: 111.48862, y: 57.679153}
+      - - {x: 3.488617, y: 7.6791534}
+        - {x: 0.48861694, y: 7.6791534}
+        - {x: -3.511383, y: 6.6791534}
+        - {x: -3.511383, y: -6.3208466}
+        - {x: -0.51138306, y: -7.3208466}
+        - {x: 3.488617, y: -7.3208466}
+        - {x: 5.488617, y: -4.3208466}
+        - {x: 5.488617, y: 4.6791534}
+    - name: circle-square_2
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 189
+        width: 546
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.141174, y: 98.65635}
+        - {x: 49.141174, y: 99.65635}
+        - {x: -53.858826, y: 99.65635}
+        - {x: -61.858826, y: 95.65635}
+        - {x: -85.858826, y: 74.65635}
+        - {x: -98.858826, y: 48.65635}
+        - {x: -99.858826, y: 32.65635}
+        - {x: -99.858826, y: -47.34365}
+        - {x: -90.858826, y: -70.34365}
+        - {x: -70.858826, y: -89.34365}
+        - {x: -46.858826, y: -99.34365}
+        - {x: 57.141174, y: -99.34365}
+        - {x: 73.141174, y: -97.34365}
+        - {x: 100.141174, y: -63.34365}
+        - {x: 100.141174, y: 59.65635}
+        - {x: 85.141174, y: 79.65635}
+    - name: circle-square_3
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 194
+        width: 529
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.243774, y: 87.485886}
+        - {x: 60.243774, y: 98.485886}
+        - {x: -25.756226, y: 98.485886}
+        - {x: -49.756226, y: 96.485886}
+        - {x: -81.756226, y: 85.485886}
+        - {x: -96.756226, y: 52.485886}
+        - {x: -96.756226, y: 1.4858856}
+        - {x: -84.756226, y: -66.514114}
+        - {x: -71.756226, y: -87.514114}
+        - {x: -45.756226, y: -96.514114}
+        - {x: 18.243774, y: -96.514114}
+        - {x: 78.243774, y: -84.514114}
+        - {x: 98.243774, y: -69.514114}
+        - {x: 98.243774, y: 63.485886}
+    - name: circle-square_4
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 175
+        width: 573
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.86914, y: 102.53366}
+        - {x: 48.86914, y: 104.53366}
+        - {x: -10.130859, y: 104.53366}
+        - {x: -90.13086, y: 73.53366}
+        - {x: -105.13086, y: 43.53366}
+        - {x: -105.13086, y: 1.5336609}
+        - {x: -101.13086, y: -10.466339}
+        - {x: -81.13086, y: -67.46634}
+        - {x: -56.13086, y: -103.46634}
+        - {x: -50.13086, y: -104.46634}
+        - {x: 16.86914, y: -104.46634}
+        - {x: 105.86914, y: -65.46634}
+        - {x: 105.86914, y: 21.53366}
+        - {x: 75.86914, y: 82.53366}
+    - name: circle-square_5
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 145
+        width: 634
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.201416, y: 102.55646}
+        - {x: 41.201416, y: 115.55646}
+        - {x: -12.798584, y: 115.55646}
+        - {x: -53.798584, y: 94.55646}
+        - {x: -98.798584, y: 58.556458}
+        - {x: -114.798584, y: 33.556458}
+        - {x: -114.798584, y: -5.4435425}
+        - {x: -104.798584, y: -28.443542}
+        - {x: -54.798584, y: -97.44354}
+        - {x: -43.798584, y: -110.44354}
+        - {x: -36.798584, y: -115.44354}
+        - {x: 33.201416, y: -115.44354}
+        - {x: 117.201416, y: -47.443542}
+        - {x: 117.201416, y: 21.556458}
+        - {x: 113.201416, y: 39.556458}
+    - name: circle-square_6
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 150
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.695923, y: 115.385994}
+        - {x: -103.69592, y: 27.385994}
+        - {x: -112.69592, y: 14.385994}
+        - {x: -112.69592, y: -13.614006}
+        - {x: -99.69592, y: -28.614006}
+        - {x: -89.69592, y: -41.614006}
+        - {x: -14.695923, y: -113.614006}
+        - {x: 19.304077, y: -113.614006}
+        - {x: 114.30408, y: -19.614006}
+        - {x: 114.30408, y: 21.385994}
+        - {x: 25.304077, y: 115.385994}
+      - - {x: -3.6959229, y: 5.385994}
+        - {x: -7.695923, y: -1.614006}
+        - {x: -7.695923, y: -9.614006}
+        - {x: 0.30407715, y: -9.614006}
+        - {x: 3.3040771, y: -8.614006}
+        - {x: 9.304077, y: -2.614006}
+        - {x: 9.304077, y: 2.385994}
+        - {x: 8.304077, y: 5.385994}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
