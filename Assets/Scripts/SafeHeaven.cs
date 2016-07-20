@@ -19,6 +19,7 @@ public class SafeHeaven : MonoBehaviour {
     // Check if it's in border of a heaven
     void OnTriggerStay2D(Collider2D coll)
     {
+        Debug.Log("enter");
         // If exiting safe heaven border
         if (coll.gameObject.CompareTag("Player"))
         {

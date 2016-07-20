@@ -33,10 +33,11 @@ public class Player : MonoBehaviour {
 	public AudioSource deathAudio;
 
 	// Timer to keep form
+    
 	private float mTimer;
 	public float maxTime;
 	private float mCoolDown;
-
+    
 	public bool safe;
 
 	// Use this for initialization
@@ -45,8 +46,10 @@ public class Player : MonoBehaviour {
 		mAnimator = GetComponent<Animator> ();
 		mState = PlayerState.CIRCLE;
 		mAnimator.SetInteger("State", 4);
+        
 		mTimer = maxTime;
 		mCoolDown = maxTime;
+        
 		safe = false;
 
 	}
@@ -55,7 +58,7 @@ public class Player : MonoBehaviour {
 	void Update () {
 		mHorizontal = Input.GetAxis ("Horizontal");
 		mVertical = Input.GetAxis ("Vertical");
-
+        /*
 		if (mTimer > maxTime) {
 			if (mState != PlayerState.CIRCLE) {
 
@@ -73,10 +76,11 @@ public class Player : MonoBehaviour {
 			mCoolDown += Time.deltaTime;
 		}
 		else {
+        
+        */
 
-
-			// Change shape with each button
-			if (Input.GetButtonDown("Fire1")) {
+        // Change shape with each button
+        if (Input.GetButtonDown("Fire1")) {
 				if (mState == PlayerState.CIRCLE)
 					mTimer = 0.0f;
 				mState = PlayerState.SQUARE;
@@ -100,8 +104,8 @@ public class Player : MonoBehaviour {
 				mCoolDown = maxTime - mTimer;
 				mTimer = maxTime;
 			}
-
-		}
+            /*
+		}*/
 		/*
 		if (Input.GetButtonDown("Fire4")) {
 			mState = PlayerState.CIRCLE;
@@ -141,7 +145,7 @@ public class Player : MonoBehaviour {
         if (mState == PlayerState.TRIANGLE)
         {
             selfLight.transform.localPosition += new Vector3(0.0f, -.5f, 0.0f);
-            selfLight.transform.position += new Vector3(scaledVelocity.x, scaledVelocity.y, 0.0f) / 2;
+            //selfLight.transform.position += new Vector3(scaledVelocity.x, scaledVelocity.y, 0.0f) / 2;
         }
 
 		
