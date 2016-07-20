@@ -19,7 +19,7 @@ public class IdleShape : ShapeAgent {
 	}
 
     override protected void FixedUpdate() {
-
+        /*
 		// Apply force if velocity is not maximum
 		if (pRigidbody.velocity.sqrMagnitude < MaxSpeed * MaxSpeed) {
 			Vector3 force = new Vector3 (0.0f, 0.0f, 0.0f);
@@ -67,6 +67,7 @@ public class IdleShape : ShapeAgent {
 		// Get light ahead of the body
 		Vector2 scaledVelocity = pRigidbody.velocity / MaxSpeed;
 		SelfLight.transform.position = gameObject.transform.position + (new Vector3 (scaledVelocity.x, scaledVelocity.y, -1.0f)) ;
+        */
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {

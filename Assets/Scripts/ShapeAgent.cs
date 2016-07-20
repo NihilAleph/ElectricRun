@@ -17,12 +17,11 @@ public class ShapeAgent : MonoBehaviour
 
 
     // All possible Shape State
-    public enum ShapeState { SQUARE, TRIANGLE, STAR, CIRCLE }
-    public ShapeState CurrentState;
+    public enum ShapeForm { SQUARE, TRIANGLE, STAR, CIRCLE }
+    public ShapeForm CurrentState;
 
 
     // Self Light
-    /* TODO: Need to change this to a better class of light control */
     public SmoothLight SelfLight;
 
     // Death Particle System
@@ -40,14 +39,6 @@ public class ShapeAgent : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update ()
     {
-        // Adjust light to be ahead of the body when moving
-        Vector2 scaledVelocity = pRigidbody.velocity / MaxSpeed;
-        Vector3 target = new Vector3(scaledVelocity.x, scaledVelocity.y, -1.0f);
-        if (CurrentState == ShapeState.TRIANGLE)
-        {
-            target += new Vector3(0.0f, -.5f, 0.0f);
-        }
-        SelfLight.SetLocalTarget(target);
 
     }
 
@@ -65,15 +56,29 @@ public class ShapeAgent : MonoBehaviour
 
 
         // Ajust rotation to point where it's going
-        gameObject.transform.rotation = Quaternion.Slerp(transform.rotation,
-            Quaternion.LookRotation(new Vector3(0.0f, 0.0f, 1.0f), new Vector3(pRigidbody.velocity.x, pRigidbody.velocity.y, 0.0f))
-        , AlphaRotation);
+        // Only do rotational adjustment if there is a velocity
+        if (pRigidbody.velocity.sqrMagnitude > float.Epsilon)
+        {
+            gameObject.transform.rotation = Quaternion.Slerp(transform.rotation,
+                Quaternion.LookRotation(new Vector3(0.0f, 0.0f, 1.0f), new Vector3(pRigidbody.velocity.x, pRigidbody.velocity.y, 0.0f))
+            , AlphaRotation);
+        }
 
+        // Adjust light to be ahead of the body when moving
+        float scaledVelocity = pRigidbody.velocity.sqrMagnitude / MaxSpeed / MaxSpeed;
+        Vector3 target = new Vector3(0.0f, scaledVelocity, -1.0f);
+        // Center correction for triangle
+        if (CurrentState == ShapeForm.TRIANGLE)
+        {
+            target -= new Vector3(0.0f, 0.5f, 0.0f);
+        }
+        SelfLight.SetLocalTarget(target);
     }
 
 
     protected virtual void Die()
     {
+        // When shape die, send particles, play audio and destroy the game object
         Instantiate(DeathParticles, gameObject.transform.position, gameObject.transform.rotation);
         Instantiate(DeathAudio, gameObject.transform.position, gameObject.transform.rotation);
         Destroy(gameObject);
