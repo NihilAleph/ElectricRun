@@ -5,49 +5,37 @@ public class IdleShape : ShapeAgent {
     
 
 	// Player reference
-	private GameObject mPlayer;
+	private Player mPlayer;
+    public float FoV;
 
 
 	// Use this for initialization
 	override protected void Start () {
         base.Start();
-		mPlayer = GameObject.FindGameObjectWithTag("Player");
+		mPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 	}
 
     // Update is called once per frame
-    override protected void Update () {
-	}
+    override protected void Update ()
+    {
+        base.Update();
+    }
 
     override protected void FixedUpdate() {
-        /*
+        base.FixedUpdate();
 		// Apply force if velocity is not maximum
 		if (pRigidbody.velocity.sqrMagnitude < MaxSpeed * MaxSpeed) {
 			Vector3 force = new Vector3 (0.0f, 0.0f, 0.0f);
-
-			// Find target type
-			Player.PlayerState target = Player.PlayerState.SQUARE;
-			switch (gameObject.tag) {
-			case "Square":
-				target = Player.PlayerState.SQUARE;
-				break;
-			case "Triangle":
-				target = Player.PlayerState.TRIANGLE;
-				break;
-			case "Star":
-				target = Player.PlayerState.STAR;
-				break;
-			default:
-				target = Player.PlayerState.SQUARE;
-				break;
-			}
+            
 			// Check if user still exists
-			if (mPlayer != null && (mPlayer.transform.position - transform.position).sqrMagnitude < 625.0f 
+			if (mPlayer != null && (mPlayer.transform.position - transform.position).sqrMagnitude < FoV * FoV 
 				&& !mPlayer.GetComponent<Player>().safe) {
 				// Force by eletrical charge with player
 				// If same state, gets attracted, else repels (which is stronger)
-				if ((mPlayer.GetComponent<Player> ()).GetState () != target) {
+				if (mPlayer.CurrentState != CurrentState) {
 					float aForce = AttractionForce;
-					if ((mPlayer.GetComponent<Player> ()).GetState () == Player.PlayerState.CIRCLE)
+                    // If the player is in circle form, attraction is less powerful
+					if (mPlayer.CurrentState ==  ShapeForm.CIRCLE)
 						aForce /= 2.0f;
 					force -= (gameObject.transform.position - mPlayer.transform.position).normalized
 						* (aForce/ (gameObject.transform.position - mPlayer.transform.position).sqrMagnitude);
@@ -58,21 +46,29 @@ public class IdleShape : ShapeAgent {
 					* (RepelForce / (gameObject.transform.position - mPlayer.transform.position).sqrMagnitude);
 				}
 
+                // Apply force
 				pRigidbody.AddForce (new Vector2 (force.x, force.y));
-                
+
+                // Set light intensity proportional to velocity
+                // Make a better equation
+                // SelfLight.SetIntensityTarget(pRigidbody.velocity.sqrMagnitude / (MaxSpeed * MaxSpeed / 8) * SelfLight.InitialIntensity);
 
 			}
 		}
-
-		// Get light ahead of the body
-		Vector2 scaledVelocity = pRigidbody.velocity / MaxSpeed;
-		SelfLight.transform.position = gameObject.transform.position + (new Vector3 (scaledVelocity.x, scaledVelocity.y, -1.0f)) ;
-        */
+        
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
 		Die ();
 	}
-    
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.CompareTag("Arena"))
+        {
+            Die();
+        }
+    }
+
 
 }

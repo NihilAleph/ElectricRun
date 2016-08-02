@@ -3,8 +3,8 @@ using System.Collections;
 
 public class SafeHeaven : MonoBehaviour {
     
-    public float sqrRange = 4.0f;
-    public GlowingLight glowingLight;
+    public float SqrRange = 4.0f;
+    public GlowingLight GlowingLight;
 
 	// Use this for initialization
 	void Start () {
@@ -24,12 +24,12 @@ public class SafeHeaven : MonoBehaviour {
         if (coll.gameObject.CompareTag("Player"))
         {
             // check if it's mostly outside the heaven
-            if ((coll.gameObject.transform.position - transform.position).sqrMagnitude > sqrRange)
+            if ((coll.gameObject.transform.position - transform.position).sqrMagnitude > SqrRange)
             {
                 // then it's not safe
                 //Debug.Log("Not Safe");
                 coll.gameObject.GetComponent<Player>().SetSafe(false);
-                glowingLight.SetGlowing(false);
+                GlowingLight.SetGlowing(false);
 
 
             }
@@ -38,7 +38,7 @@ public class SafeHeaven : MonoBehaviour {
                 // or else it's safe
                 //Debug.Log("Safe");
                 coll.gameObject.GetComponent<Player>().SetSafe(true);
-                glowingLight.SetGlowing(true);
+                GlowingLight.SetGlowing(true);
 
             }
         }

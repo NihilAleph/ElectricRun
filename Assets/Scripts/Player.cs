@@ -51,7 +51,7 @@ public class Player : ShapeAgent {
 			mAnimator.SetInteger("State", 2);
 		}
 		if (Input.GetButtonDown("Fire3")) {
-            CurrentState = ShapeForm.STAR;
+            CurrentState = ShapeForm.HEXAGON;
 			mAnimator.SetInteger("State", 3);
 		}
 		if (Input.GetButtonDown("Fire4")) {
@@ -80,6 +80,7 @@ public class Player : ShapeAgent {
     // Setting if player is safe or not
     public void SetSafe (bool set)
     {
+        safe = set;
         /*
         if (set)
         {
@@ -110,7 +111,7 @@ public class Player : ShapeAgent {
 	}
 
 
-	void OnTriggerExit2D(Collider2D coll) {
+	void OnTriggerEnter2D(Collider2D coll) {
 		if (coll.gameObject.CompareTag ("Arena")) {
 			Die ();
 		}

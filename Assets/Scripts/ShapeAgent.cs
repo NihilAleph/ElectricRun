@@ -17,7 +17,7 @@ public class ShapeAgent : MonoBehaviour
 
 
     // All possible Shape State
-    public enum ShapeForm { SQUARE, TRIANGLE, STAR, CIRCLE }
+    public enum ShapeForm { SQUARE, TRIANGLE, HEXAGON, CIRCLE }
     public ShapeForm CurrentState;
 
 
@@ -70,7 +70,7 @@ public class ShapeAgent : MonoBehaviour
         // Center correction for triangle
         if (CurrentState == ShapeForm.TRIANGLE)
         {
-            target -= new Vector3(0.0f, 0.5f, 0.0f);
+            target -= new Vector3(0.0f, 0.2f, 0.0f);
         }
         SelfLight.SetLocalTarget(target);
     }
