@@ -1,0 +1,763 @@
+fileFormatVersion: 2
+guid: 19c27d64b99c99e479bb966051a6ffab
+timeCreated: 1470598534
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: checkpoint_00
+    21300002: checkpoint_01
+    21300004: checkpoint_02
+    21300006: checkpoint_03
+    21300008: checkpoint_04
+    21300010: checkpoint_05
+    21300012: checkpoint_06
+    21300014: checkpoint_07
+    21300016: checkpoint_08
+    21300018: checkpoint_09
+    21300020: checkpoint_10
+    21300022: checkpoint_11
+    21300024: checkpoint_12
+    21300026: checkpoint_13
+    21300028: checkpoint_14
+    21300030: checkpoint_15
+    21300032: checkpoint_16
+    21300034: checkpoint_17
+    21300036: checkpoint_18
+    21300038: checkpoint_19
+    21300040: checkpoint_20
+    21300042: checkpoint_21
+    21300044: checkpoint_22
+    21300046: checkpoint_23
+    21300048: checkpoint_0
+    21300050: checkpoint_1
+    21300052: checkpoint_2
+    21300054: checkpoint_3
+    21300056: checkpoint_4
+    21300058: checkpoint_5
+    21300060: checkpoint_6
+    21300062: checkpoint_7
+    21300064: checkpoint_8
+    21300066: checkpoint_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: checkpoint_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 853
+        width: 232
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116, y: -66}
+        - {x: 116, y: 27}
+        - {x: 111, y: 44}
+        - {x: 93, y: 101}
+        - {x: 77, y: 110}
+        - {x: 69, y: 115}
+        - {x: -30, y: 115}
+        - {x: -52, y: 102}
+        - {x: -92, y: 98}
+        - {x: -116, y: 73}
+        - {x: -116, y: -34}
+        - {x: -98, y: -90}
+        - {x: -81, y: -110}
+        - {x: -69, y: -115}
+        - {x: 27, y: -115}
+        - {x: 45, y: -104}
+        - {x: 85, y: -99}
+        - {x: 105, y: -85}
+    - name: checkpoint_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 856
+        width: 225
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112.5, y: -73}
+        - {x: 112.5, y: 22}
+        - {x: 105.5, y: 35}
+        - {x: 105.5, y: 79}
+        - {x: 93.5, y: 100}
+        - {x: 74.5, y: 112}
+        - {x: -33.5, y: 112}
+        - {x: -81.5, y: 106}
+        - {x: -96.5, y: 98}
+        - {x: -112.5, y: 76}
+        - {x: -112.5, y: -42}
+        - {x: -109.5, y: -79}
+        - {x: -85.5, y: -110}
+        - {x: -77.5, y: -112}
+        - {x: 21.5, y: -112}
+        - {x: 34.5, y: -105}
+        - {x: 81.5, y: -106}
+        - {x: 104.5, y: -88}
+    - name: checkpoint_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 858
+        width: 221
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.5, y: 77}
+        - {x: 105.5, y: 87}
+        - {x: 92.5, y: 99}
+        - {x: 83.5, y: 106}
+        - {x: 75.5, y: 110}
+        - {x: -78.5, y: 110}
+        - {x: -88.5, y: 105}
+        - {x: -100.5, y: 91}
+        - {x: -106.5, y: 83}
+        - {x: -110.5, y: 74}
+        - {x: -110.5, y: -78}
+        - {x: -109.5, y: -82}
+        - {x: -93.5, y: -101}
+        - {x: -76.5, y: -110}
+        - {x: 77.5, y: -110}
+        - {x: 88.5, y: -105}
+        - {x: 106.5, y: -85}
+        - {x: 110.5, y: -76}
+    - name: checkpoint_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 852
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -26}
+        - {x: 116.5, y: 76}
+        - {x: 114.5, y: 79}
+        - {x: 97.5, y: 99}
+        - {x: 74.5, y: 112}
+        - {x: 30.5, y: 116}
+        - {x: -77.5, y: 116}
+        - {x: -104.5, y: 97}
+        - {x: -111.5, y: 73}
+        - {x: -116.5, y: 36}
+        - {x: -116.5, y: -79}
+        - {x: -91.5, y: -105}
+        - {x: -75.5, y: -110}
+        - {x: -22.5, y: -111}
+        - {x: -15.5, y: -116}
+        - {x: 74.5, y: -116}
+        - {x: 90.5, y: -107}
+        - {x: 106.5, y: -86}
+        - {x: 111.5, y: -75}
+    - name: checkpoint_4
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 850
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 71}
+        - {x: 101, y: 97}
+        - {x: 75, y: 110}
+        - {x: 31, y: 118}
+        - {x: -76, y: 118}
+        - {x: -83, y: 113}
+        - {x: -107, y: 84}
+        - {x: -110, y: 73}
+        - {x: -110, y: 35}
+        - {x: -119, y: 22}
+        - {x: -119, y: -70}
+        - {x: -109, y: -86}
+        - {x: -94, y: -100}
+        - {x: -75, y: -110}
+        - {x: -27, y: -118}
+        - {x: 74, y: -118}
+        - {x: 99, y: -98}
+        - {x: 111, y: -74}
+        - {x: 119, y: -26}
+    - name: checkpoint_5
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 851
+        width: 236
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118, y: 64}
+        - {x: 105, y: 85}
+        - {x: 88, y: 103}
+        - {x: 43, y: 112}
+        - {x: 31, y: 117}
+        - {x: -65, y: 117}
+        - {x: -79, y: 110}
+        - {x: -98, y: 89}
+        - {x: -108, y: 70}
+        - {x: -118, y: 29}
+        - {x: -118, y: -64}
+        - {x: -114, y: -73}
+        - {x: -86, y: -105}
+        - {x: -42, y: -112}
+        - {x: -30, y: -117}
+        - {x: 74, y: -117}
+        - {x: 107, y: -82}
+        - {x: 108, y: -70}
+        - {x: 118, y: -34}
+    - name: checkpoint_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 574
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114, y: -36}
+        - {x: 114, y: 63}
+        - {x: 93, y: 92}
+        - {x: 65, y: 106}
+        - {x: 34, y: 114}
+        - {x: -59, y: 114}
+        - {x: -69, y: 110}
+        - {x: -92, y: 91}
+        - {x: -105, y: 64}
+        - {x: -114, y: 42}
+        - {x: -114, y: -69}
+        - {x: -83, y: -102}
+        - {x: -47, y: -114}
+        - {x: 63, y: -114}
+        - {x: 71, y: -111}
+        - {x: 96, y: -86}
+        - {x: 106, y: -65}
+    - name: checkpoint_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 577
+        width: 222
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: -45.5}
+        - {x: 111, y: 62.5}
+        - {x: 82, y: 95.5}
+        - {x: 40, y: 110.5}
+        - {x: -59, y: 110.5}
+        - {x: -78, y: 102.5}
+        - {x: -111, y: 61.5}
+        - {x: -111, y: -70.5}
+        - {x: -63, y: -109.5}
+        - {x: -52, y: -110.5}
+        - {x: 57, y: -110.5}
+        - {x: 71, y: -103.5}
+        - {x: 92, y: -82.5}
+        - {x: 102, y: -70.5}
+    - name: checkpoint_8
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 580
+        width: 216
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 57.5}
+        - {x: 91, y: 82.5}
+        - {x: 71, y: 95.5}
+        - {x: 46, y: 107.5}
+        - {x: -54, y: 107.5}
+        - {x: -66, y: 103.5}
+        - {x: -90, y: 80.5}
+        - {x: -108, y: 45.5}
+        - {x: -108, y: -52.5}
+        - {x: -98, y: -71.5}
+        - {x: -82, y: -88.5}
+        - {x: -55, y: -107.5}
+        - {x: 59, y: -107.5}
+        - {x: 67, y: -101.5}
+        - {x: 91, y: -80.5}
+        - {x: 108, y: -44.5}
+    - name: checkpoint_9
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 583
+        width: 211
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.5, y: 59}
+        - {x: 93.5, y: 77}
+        - {x: 56.5, y: 102}
+        - {x: 48.5, y: 105}
+        - {x: -56.5, y: 105}
+        - {x: -69.5, y: 98}
+        - {x: -99.5, y: 63}
+        - {x: -105.5, y: 45}
+        - {x: -105.5, y: -55}
+        - {x: -96.5, y: -77}
+        - {x: -56.5, y: -105}
+        - {x: 57.5, y: -105}
+        - {x: 89.5, y: -84}
+        - {x: 105.5, y: -56}
+        - {x: 105.5, y: 55}
+    - name: checkpoint_10
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 579
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 57}
+        - {x: 89, y: 83}
+        - {x: 53, y: 109}
+        - {x: -59, y: 109}
+        - {x: -90, y: 83}
+        - {x: -102, y: 63}
+        - {x: -109, y: 47}
+        - {x: -109, y: -56}
+        - {x: -81, y: -89}
+        - {x: -65, y: -100}
+        - {x: -46, y: -109}
+        - {x: 55, y: -109}
+        - {x: 73, y: -94}
+        - {x: 96, y: -71}
+        - {x: 109, y: -46}
+    - name: checkpoint_11
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 568
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: 42}
+        - {x: 111, y: 47}
+        - {x: 95, y: 82}
+        - {x: 74, y: 104}
+        - {x: 45, y: 120}
+        - {x: -39, y: 120}
+        - {x: -42, y: 118}
+        - {x: -82, y: 94}
+        - {x: -108, y: 67}
+        - {x: -120, y: 44}
+        - {x: -120, y: -41}
+        - {x: -101, y: -73}
+        - {x: -75, y: -104}
+        - {x: -45, y: -120}
+        - {x: 40, y: -120}
+        - {x: 47, y: -113}
+        - {x: 89, y: -92}
+        - {x: 120, y: -52}
+    - name: checkpoint_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 258
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -64.5}
+        - {x: 129, y: -52.5}
+        - {x: 129, y: 27.5}
+        - {x: 89, y: 95.5}
+        - {x: 82, y: 107.5}
+        - {x: 50, y: 128.5}
+        - {x: -20, y: 128.5}
+        - {x: -27, y: 114.5}
+        - {x: -66, y: 113.5}
+        - {x: -121, y: 71.5}
+        - {x: -129, y: 48.5}
+        - {x: -129, y: -23.5}
+        - {x: -107, y: -63.5}
+        - {x: -88, y: -101.5}
+        - {x: -60, y: -128.5}
+        - {x: 21, y: -128.5}
+        - {x: 25, y: -107.5}
+        - {x: 64, y: -106.5}
+        - {x: 97, y: -89.5}
+    - name: checkpoint_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 278
+        width: 260
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 3.5}
+        - {x: 115, y: 11.5}
+        - {x: 100, y: 102.5}
+        - {x: 65, y: 129.5}
+        - {x: 3, y: 129.5}
+        - {x: -2, y: 121.5}
+        - {x: -72, y: 105.5}
+        - {x: -104, y: 90.5}
+        - {x: -129, y: 73.5}
+        - {x: -130, y: 64.5}
+        - {x: -130, y: 0.5}
+        - {x: -123, y: -0.5}
+        - {x: -105, y: -2.5}
+        - {x: -105, y: -70.5}
+        - {x: -100, y: -91.5}
+        - {x: -65, y: -129.5}
+        - {x: 0, y: -129.5}
+        - {x: 8, y: -111.5}
+        - {x: 98, y: -101.5}
+        - {x: 130, y: -61.5}
+    - name: checkpoint_14
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 286
+        width: 244
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: -24.5}
+        - {x: 113, y: -18.5}
+        - {x: 106, y: 79.5}
+        - {x: 85, y: 116.5}
+        - {x: 78, y: 121.5}
+        - {x: 24, y: 121.5}
+        - {x: 18, y: 105.5}
+        - {x: -88, y: 103.5}
+        - {x: -120, y: 91.5}
+        - {x: -122, y: 80.5}
+        - {x: -122, y: 21.5}
+        - {x: -103, y: 20.5}
+        - {x: -106, y: -81.5}
+        - {x: -82, y: -121.5}
+        - {x: -20, y: -121.5}
+        - {x: -20, y: -103.5}
+        - {x: 82, y: -106.5}
+        - {x: 122, y: -79.5}
+    - name: checkpoint_15
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 301
+        width: 213
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5, y: -97.5}
+        - {x: 106.5, y: -36.5}
+        - {x: 103.5, y: -16.5}
+        - {x: 104.5, y: 86.5}
+        - {x: 96.5, y: 106.5}
+        - {x: 37.5, y: 106.5}
+        - {x: 12.5, y: 104.5}
+        - {x: -85.5, y: 105.5}
+        - {x: -106.5, y: 94.5}
+        - {x: -106.5, y: -84.5}
+        - {x: -95.5, y: -106.5}
+        - {x: -47.5, y: -106.5}
+        - {x: -45.5, y: -105.5}
+        - {x: -13.5, y: -103.5}
+        - {x: 93.5, y: -102.5}
+    - name: checkpoint_16
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 300
+        width: 216
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 94.5}
+        - {x: 23, y: 107.5}
+        - {x: -94, y: 107.5}
+        - {x: -91, y: 64.5}
+        - {x: -90, y: 62.5}
+        - {x: -83, y: 59.5}
+        - {x: -86, y: 50.5}
+        - {x: -100, y: 27.5}
+        - {x: -108, y: 10.5}
+        - {x: -108, y: -91.5}
+        - {x: -19, y: -107.5}
+        - {x: 91, y: -107.5}
+        - {x: 95, y: -62.5}
+        - {x: 108, y: -14.5}
+        - {x: 108, y: 90.5}
+    - name: checkpoint_17
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 289
+        width: 238
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 73.5}
+        - {x: 107, y: 82.5}
+        - {x: 68, y: 88.5}
+        - {x: 10, y: 118.5}
+        - {x: -78, y: 118.5}
+        - {x: -87, y: 91.5}
+        - {x: -80, y: 73.5}
+        - {x: -113, y: 26.5}
+        - {x: -119, y: 9.5}
+        - {x: -119, y: -77.5}
+        - {x: -61, y: -94.5}
+        - {x: -13, y: -118.5}
+        - {x: 76, y: -118.5}
+        - {x: 83, y: -108.5}
+        - {x: 103, y: -39.5}
+        - {x: 119, y: -8.5}
+    - name: checkpoint_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 256
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 57.5}
+        - {x: 97, y: 63.5}
+        - {x: 67, y: 90.5}
+        - {x: 23, y: 123.5}
+        - {x: 10, y: 127.5}
+        - {x: -53, y: 127.5}
+        - {x: -56, y: 126.5}
+        - {x: -76, y: 81.5}
+        - {x: -128, y: 17.5}
+        - {x: -128, y: -61.5}
+        - {x: -100, y: -64.5}
+        - {x: -40, y: -115.5}
+        - {x: -14, y: -127.5}
+        - {x: 54, y: -127.5}
+        - {x: 59, y: -119.5}
+        - {x: 76, y: -82.5}
+        - {x: 128, y: -18.5}
+    - name: checkpoint_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 256
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 30.5}
+        - {x: 98, y: 65.5}
+        - {x: 78, y: 80.5}
+        - {x: 29, y: 127.5}
+        - {x: -33, y: 127.5}
+        - {x: -68, y: 94.5}
+        - {x: -128, y: 32.5}
+        - {x: -128, y: -35.5}
+        - {x: -96, y: -68.5}
+        - {x: -65, y: -87.5}
+        - {x: -51, y: -105.5}
+        - {x: -35, y: -120.5}
+        - {x: -27, y: -127.5}
+        - {x: 35, y: -127.5}
+        - {x: 79, y: -86.5}
+        - {x: 101, y: -56.5}
+        - {x: 128, y: -27.5}
+    - name: checkpoint_20
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 7
+        width: 241
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.5, y: 27}
+        - {x: 118.5, y: 36}
+        - {x: 104.5, y: 59}
+        - {x: 83.5, y: 76}
+        - {x: 42.5, y: 120}
+        - {x: -30.5, y: 120}
+        - {x: -58.5, y: 106}
+        - {x: -92.5, y: 66}
+        - {x: -120.5, y: 43}
+        - {x: -120.5, y: -36}
+        - {x: -106.5, y: -58}
+        - {x: -80.5, y: -77}
+        - {x: -44.5, y: -120}
+        - {x: 37.5, y: -120}
+        - {x: 71.5, y: -93}
+        - {x: 97.5, y: -62}
+        - {x: 120.5, y: -42}
+    - name: checkpoint_21
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 10
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.5, y: -50.5}
+        - {x: 117.5, y: 40.5}
+        - {x: 109.5, y: 53.5}
+        - {x: 70.5, y: 100.5}
+        - {x: 54.5, y: 117.5}
+        - {x: -41.5, y: 117.5}
+        - {x: -47.5, y: 113.5}
+        - {x: -117.5, y: 56.5}
+        - {x: -117.5, y: -43.5}
+        - {x: -103.5, y: -61.5}
+        - {x: -74.5, y: -99.5}
+        - {x: -51.5, y: -117.5}
+        - {x: 42.5, y: -117.5}
+        - {x: 68.5, y: -95.5}
+        - {x: 103.5, y: -70.5}
+    - name: checkpoint_22
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 7
+        width: 241
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.5, y: 39}
+        - {x: 101.5, y: 63}
+        - {x: 82.5, y: 100}
+        - {x: 58.5, y: 120}
+        - {x: -34.5, y: 120}
+        - {x: -52.5, y: 110}
+        - {x: -88.5, y: 89}
+        - {x: -120.5, y: 62}
+        - {x: -120.5, y: -32}
+        - {x: -114.5, y: -45}
+        - {x: -76.5, y: -105}
+        - {x: -56.5, y: -120}
+        - {x: 35.5, y: -120}
+        - {x: 55.5, y: -108}
+        - {x: 100.5, y: -78}
+        - {x: 120.5, y: -60}
+    - name: checkpoint_23
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 9
+        width: 238
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -60.5}
+        - {x: 119, y: 31.5}
+        - {x: 94, y: 84.5}
+        - {x: 78, y: 107.5}
+        - {x: 66, y: 115.5}
+        - {x: 59, y: 118.5}
+        - {x: -29, y: 118.5}
+        - {x: -41, y: 112.5}
+        - {x: -102, y: 86.5}
+        - {x: -119, y: 61.5}
+        - {x: -119, y: -31.5}
+        - {x: -97, y: -78.5}
+        - {x: -79, y: -109.5}
+        - {x: -66, y: -118.5}
+        - {x: 34, y: -118.5}
+        - {x: 85, y: -93.5}
+        - {x: 107, y: -78.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

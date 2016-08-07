@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SafeHeaven : MonoBehaviour {
     
-    public float SqrRange = 4.0f;
+    public float SqrRange = 3.0f;
     public GlowingLight GlowingLight;
 
 	// Use this for initialization

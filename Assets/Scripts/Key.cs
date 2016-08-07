@@ -21,7 +21,7 @@ public class Key : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject.CompareTag("Player")) {
-			GameObject.FindGameObjectWithTag ("GameController").GetComponent<Portal> ().KeyDestroyed ();
+			//GameObject.FindGameObjectWithTag ("GameController").GetComponent<Portal> ().KeyDestroyed ();
 			Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
 			Instantiate (deathAudio, gameObject.transform.position, gameObject.transform.rotation);
 			Destroy (gameObject);
