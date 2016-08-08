@@ -7,15 +7,14 @@ public class Portal : MonoBehaviour {
 
 	// Particles when player enters Portal
 	public ParticleSystem deathParticles;
+
 	// Audio when player enters Portal
 	public AudioSource PortalAudio;
+
     // Physical parameters
-    /*
-	public Light selfLight;
-	public float maxLight;
-    */
     public GlowingLight GlowingLight;
 	public float SpinSpeed;
+    private bool mActive = false;
 
 	// Next scene when this one is done
 	//public string nextScene;
@@ -25,9 +24,6 @@ public class Portal : MonoBehaviour {
 	// Initial key count
 	//private int mKeys;
 
-	// GameState
-	public enum GameState { READY, PLAYING, GAMEOVER, SUCCESS, FINISHED  }
-	private GameState mState;
 
 	// UI References
     /*
@@ -61,37 +57,15 @@ public class Portal : MonoBehaviour {
 		// Spin portal proportional to keyscount
 		gameObject.transform.Rotate (Vector3.forward * SpinSpeed * Time.deltaTime);
 
+        if (mActive)
+        {
 
-        switch (mState) {
-            case GameState.GAMEOVER:
-                //restart.SetActive(true);
-                if (Input.anyKeyDown) {
-                    // Restart scene
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                }
-                break;
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            player.transform.position = Vector3.Lerp(gameObject.transform.position, player.transform.position, 0.3f);
+            player.transform.localScale = player.transform.localScale * 0.95f;
+            gameObject.transform.localScale = gameObject.transform.localScale * 0.95f;
+        }
 
-
-            // On game Finished, Portal sucks player and dissappear
-            case GameState.SUCCESS:
-                GameObject player = GameObject.FindGameObjectWithTag("Player");
-                player.transform.position = Vector3.Lerp(gameObject.transform.position, player.transform.position, 0.3f);
-                player.transform.localScale = player.transform.localScale * 0.95f;
-                gameObject.transform.localScale = gameObject.transform.localScale * 0.95f;
-
-			if (player.transform.localScale.sqrMagnitude < 0.2f) {
-				mState = GameState.FINISHED;
-				//Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
-				//Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
-				//StartCoroutine (FinishGame());
-			}
-			break;
-		case GameState.FINISHED:
-			break;
-		default:
-			break;
-
-		}
 	}
 
     /*
@@ -110,11 +84,10 @@ public class Portal : MonoBehaviour {
 	// Check when Player enters the portal
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject.CompareTag("Player")) {
-			//Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
-			//Destroy (gameObject);
+            // Play portal sound and spin faster
 			Instantiate (PortalAudio, gameObject.transform.position, gameObject.transform.rotation);
-			mState = GameState.SUCCESS;
             SpinSpeed *= 50.0f;
+            mActive = true;
 
 
         }
@@ -148,11 +121,6 @@ public class Portal : MonoBehaviour {
 		}
 		// Light portal proportional to keyscount
 		selfLight.intensity = maxLight * mKeysCount / (mKeys);
-	}
-
-	// Called when player dies
-	public void PlayerDead() {
-		mState = GameState.GAMEOVER;
 	}
     */
 }

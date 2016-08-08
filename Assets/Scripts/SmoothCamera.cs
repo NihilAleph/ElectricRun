@@ -9,8 +9,7 @@ public class SmoothCamera : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		// Set target as tag Player
-		target = GameObject.FindGameObjectWithTag("Player");
+        TargetPlayer();
 	}
 	
 	// Update is called once per frame
@@ -22,4 +21,11 @@ public class SmoothCamera : MonoBehaviour {
 			gameObject.transform.position = Vector3.Lerp (gameObject.transform.position, targetPosition, alpha);
 		}
 	}
+
+    // Set target as tag Player
+    public void TargetPlayer()
+    {
+        target = GameObject.FindGameObjectWithTag("Player");
+
+    }
 }

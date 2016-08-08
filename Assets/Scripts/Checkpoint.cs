@@ -8,7 +8,8 @@ public class Checkpoint : MonoBehaviour {
     public float HelixSpinSpeed;
 
     private bool mActive = false;
-    
+    // Active getter
+    public bool IsActive { get { return mActive; } }
 
     // Use this for initialization
     void Start () {
@@ -22,6 +23,7 @@ public class Checkpoint : MonoBehaviour {
         gameObject.transform.Rotate(Vector3.forward * Time.deltaTime * SpinSpeed);
 
 
+        // If this check point is active, rotate helixes
         if (mActive)
         {
 
@@ -35,22 +37,29 @@ public class Checkpoint : MonoBehaviour {
 
 
 
-    // Check if it's in border of a heaven
-    void OnTriggerStay2D(Collider2D coll)
+    // Check if player entered checkpoint
+    void OnTriggerEnter2D(Collider2D coll)
     {
-        Debug.Log("enter");
-        // If exiting safe heaven border
         if (coll.gameObject.CompareTag("Player"))
-        {
-            // then it's not safe
-            //Debug.Log("Not Safe");
-            
-            //coll.gameObject.GetComponent<Player>().SetSafe(false);
-            GlowingLight.SetGlowing(true);
+        { 
+            // If checkpoint wasn't active, activate now
+            if (!mActive)
+            {
+                // First deactivate all checkpoints
+                GameController.Instance.SetCheckpoint(this);
 
+                // Start Light
+                GlowingLight.SetGlowing(true);
+                // Activate this checkpoint
+                mActive = true;
+            }
 
-            mActive = true;
-            
         }
+    }
+
+    public void Deactivate()
+    {
+        mActive = false;
+        GlowingLight.SetGlowing(false);
     }
 }
