@@ -64,22 +64,22 @@ public class Portal : MonoBehaviour {
             player.transform.position = Vector3.Lerp(gameObject.transform.position, player.transform.position, 0.3f);
             player.transform.localScale = player.transform.localScale * 0.95f;
             gameObject.transform.localScale = gameObject.transform.localScale * 0.95f;
+            
+            if (player.transform.localScale.sqrMagnitude < 0.2f)
+            {
+                Destroy(GameObject.FindGameObjectWithTag("Player"));
+                /*
+                Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
+                Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
+                */
+                GameController.Instance.FinishStage();
+
+                mActive = false;
+            }
         }
 
-	}
-
-    /*
-	IEnumerator FinishGame() {
-		Destroy (GameObject.FindGameObjectWithTag ("Player"));
-		float waitTime = 1.5f; 
-		while (waitTime > 0.0f) {
-			waitTime -= Time.deltaTime;
-			yield return null;
-		}
-		// Start next scene
-		SceneManager.LoadScene (nextScene);
-	}
-    */
+    }
+    
 
 	// Check when Player enters the portal
 	void OnTriggerEnter2D(Collider2D col) {
@@ -92,35 +92,5 @@ public class Portal : MonoBehaviour {
 
         }
 	}
-
-    /*
-	// Called when a player gets a key
-	public void KeyDestroyed() {
-		mKeysCount++;
-		switch(mKeys - mKeysCount) {
-		case 4:
-			key5.SetActive (false);
-			key4.SetActive (true);
-			break;
-		case 3:
-			key4.SetActive (false);
-			key3.SetActive (true);
-			break;
-		case 2:
-			key3.SetActive (false);
-			key2.SetActive (true);
-			break;
-		case 1:
-			key2.SetActive (false);
-			key1.SetActive (true);
-			break;
-		case 0:
-			key1.SetActive (false);
-			keysLeft.SetActive (false);
-			break;
-		}
-		// Light portal proportional to keyscount
-		selfLight.intensity = maxLight * mKeysCount / (mKeys);
-	}
-    */
+    
 }

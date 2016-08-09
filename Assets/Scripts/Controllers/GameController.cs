@@ -55,7 +55,8 @@ public class GameController : MonoBehaviour {
                 mState = GameState.PLAYING;
                 GameObject player = GameObject.FindGameObjectWithTag("Player");
                 
-                player.transform.position = mCheckpointPosition;
+                if (mCheckpointPosition != Vector3.zero)
+                    player.transform.position = mCheckpointPosition;
                 break;
             case GameState.GAMEOVER:
                 if (Input.anyKeyDown)
@@ -65,21 +66,10 @@ public class GameController : MonoBehaviour {
                     mState = GameState.LOADING;
                 }
                 break;
-
-
-            // On game Finished, Portal sucks player and dissappear
-            case GameState.SUCCESS:
-                /*
-                if (player.transform.localScale.sqrMagnitude < 0.2f)
-                {
-                    mState = GameState.FINISHED;
-                    //Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
-                    //Instantiate (deathParticles, gameObject.transform.position, gameObject.transform.rotation);
-                    //StartCoroutine (FinishGame());
-                    
-                }*/
-                break;
+                
             case GameState.FINISHED:
+                // For now, just go to next stage
+                StartCoroutine(ChangeStage());
                 break;
             default:
                 break;
@@ -99,8 +89,23 @@ public class GameController : MonoBehaviour {
     }
 
     // Called when player dies
-    public void PlayerDead()
+    public void PlayerDied()
     {
         mState = GameState.GAMEOVER;
     }
+
+    // Called when a stage is completed
+    public void FinishStage()
+    {
+        mState = GameState.FINISHED;
+    }
+
+    IEnumerator ChangeStage()
+    {
+
+        yield return new WaitForSeconds(1.5f);
+        IStageController stage = GameObject.FindGameObjectWithTag("StageController").GetComponent<IStageController>();
+        SceneManager.LoadScene(stage.NextStage);
+    }
+
 }

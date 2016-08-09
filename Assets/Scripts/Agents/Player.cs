@@ -120,6 +120,6 @@ public class Player : ShapeAgent {
     protected override void Die()
     {
         base.Die();
-        GameController.Instance.PlayerDead();
+        GameController.Instance.PlayerDied();
     }
 }
