@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: b568a508501190b4583c7ac61da845d1
+timeCreated: 1470097875
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: circle-triangle_0
+    21300002: circle-triangle_1
+    21300004: circle-triangle_2
+    21300006: circle-triangle_3
+    21300008: circle-triangle_4
+    21300010: circle-triangle_5
+    21300012: circle-triangle_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: circle-triangle_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 275
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.19852, y: -57.301483}
+        - {x: 130.19852, y: -31.301483}
+        - {x: 131.19852, y: -21.301483}
+        - {x: 131.19852, y: 30.698517}
+        - {x: 130.19852, y: 44.698517}
+        - {x: 109.19852, y: 88.69852}
+        - {x: 81.19852, y: 113.69852}
+        - {x: 44.198517, y: 130.69852}
+        - {x: -37.801483, y: 130.69852}
+        - {x: -66.80148, y: 122.69852}
+        - {x: -91.80148, y: 104.69852}
+        - {x: -107.80148, y: 89.69852}
+        - {x: -128.80148, y: 49.698517}
+        - {x: -130.80148, y: 38.698517}
+        - {x: -130.80148, y: -46.301483}
+        - {x: -110.80148, y: -86.30148}
+        - {x: -90.80148, y: -107.30148}
+        - {x: -51.801483, y: -128.30148}
+        - {x: -39.801483, y: -130.30148}
+        - {x: 40.198517, y: -130.30148}
+        - {x: 57.198517, y: -128.30148}
+        - {x: 98.19852, y: -100.30148}
+        - {x: 115.19852, y: -74.30148}
+    - name: circle-triangle_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 26
+        width: 247
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.618744, y: -32.302414}
+        - {x: 117.618744, y: 47.697586}
+        - {x: 115.618744, y: 58.697586}
+        - {x: 98.618744, y: 92.697586}
+        - {x: 58.618744, y: 119.697586}
+        - {x: -31.381256, y: 119.697586}
+        - {x: -58.381256, y: 111.697586}
+        - {x: -88.381256, y: 95.697586}
+        - {x: -116.381256, y: 59.697586}
+        - {x: -117.381256, y: 48.697586}
+        - {x: -117.381256, y: -28.302414}
+        - {x: -106.381256, y: -64.302414}
+        - {x: -75.381256, y: -98.302414}
+        - {x: -54.381256, y: -117.302414}
+        - {x: -41.381256, y: -118.302414}
+        - {x: 34.618744, y: -118.302414}
+        - {x: 41.618744, y: -115.302414}
+        - {x: 76.618744, y: -98.302414}
+        - {x: 96.618744, y: -78.302414}
+    - name: circle-triangle_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 31
+        width: 226
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.78943, y: 95.94713}
+        - {x: 59.78943, y: 111.94713}
+        - {x: -25.210571, y: 111.94713}
+        - {x: -65.21057, y: 98.94713}
+        - {x: -107.21057, y: 56.94713}
+        - {x: -107.21057, y: -38.05287}
+        - {x: -84.21057, y: -71.05287}
+        - {x: -63.21057, y: -92.05287}
+        - {x: -28.210571, y: -110.05287}
+        - {x: -25.210571, y: -111.05287}
+        - {x: 51.78943, y: -111.05287}
+        - {x: 92.78943, y: -75.05287}
+        - {x: 107.78943, y: -41.05287}
+        - {x: 107.78943, y: 63.94713}
+    - name: circle-triangle_3
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 33
+        width: 213
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.71057, y: 95.34694}
+        - {x: 64.71057, y: 109.34694}
+        - {x: -14.289429, y: 109.34694}
+        - {x: -62.28943, y: 85.34694}
+        - {x: -89.28943, y: 55.34694}
+        - {x: -101.28943, y: 40.34694}
+        - {x: -101.28943, y: -53.65306}
+        - {x: -47.28943, y: -99.65306}
+        - {x: -21.289429, y: -108.65306}
+        - {x: 62.71057, y: -108.65306}
+        - {x: 86.71057, y: -88.65306}
+        - {x: 102.71057, y: -52.65306}
+        - {x: 102.71057, y: 68.34694}
+    - name: circle-triangle_4
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 29
+        width: 216
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.43225, y: 71.54731}
+        - {x: 70.43225, y: 111.54731}
+        - {x: 60.43225, y: 114.54731}
+        - {x: -9.567749, y: 114.54731}
+        - {x: -55.56775, y: 82.54731}
+        - {x: -101.56775, y: 38.54731}
+        - {x: -102.56775, y: 30.54731}
+        - {x: -102.56775, y: -60.45269}
+        - {x: -88.56775, y: -74.45269}
+        - {x: -37.56775, y: -100.45269}
+        - {x: -2.567749, y: -113.45269}
+        - {x: 75.43225, y: -113.45269}
+        - {x: 93.43225, y: -96.45269}
+        - {x: 103.43225, y: -75.45269}
+        - {x: 103.43225, y: 45.54731}
+    - name: circle-triangle_5
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 26
+        width: 242
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108.85437, y: 27.197586}
+        - {x: 69.85437, y: 108.197586}
+        - {x: 49.85437, y: 121.197586}
+        - {x: -24.14563, y: 121.197586}
+        - {x: -36.14563, y: 113.197586}
+        - {x: -91.14563, y: 49.197586}
+        - {x: -109.14563, y: 11.197586}
+        - {x: -115.14563, y: -8.802414}
+        - {x: -115.14563, y: -68.802414}
+        - {x: -110.14563, y: -84.802414}
+        - {x: -64.14563, y: -110.802414}
+        - {x: -4.14563, y: -119.802414}
+        - {x: 69.85437, y: -119.802414}
+        - {x: 96.85437, y: -108.802414}
+        - {x: 115.85437, y: -87.802414}
+        - {x: 115.85437, y: -9.802414}
+    - name: circle-triangle_6
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 13
+        width: 265
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126.22632, y: -18.6512}
+        - {x: 110.22632, y: 23.3488}
+        - {x: 77.22632, y: 85.3488}
+        - {x: 53.22632, y: 118.3488}
+        - {x: 36.22632, y: 132.3488}
+        - {x: -31.773682, y: 132.3488}
+        - {x: -42.77368, y: 128.3488}
+        - {x: -75.77368, y: 88.3488}
+        - {x: -86.77368, y: 69.3488}
+        - {x: -106.77368, y: 30.3488}
+        - {x: -125.77368, y: -17.6512}
+        - {x: -125.77368, y: -86.6512}
+        - {x: -123.77368, y: -97.6512}
+        - {x: -102.77368, y: -120.6512}
+        - {x: -83.77368, y: -127.6512}
+        - {x: -55.77368, y: -131.6512}
+        - {x: 57.22632, y: -131.6512}
+        - {x: 87.22632, y: -127.6512}
+        - {x: 104.22632, y: -120.6512}
+        - {x: 126.22632, y: -98.6512}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
